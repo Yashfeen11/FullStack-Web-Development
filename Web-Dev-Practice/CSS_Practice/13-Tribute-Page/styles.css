@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(171, 239, 239);
+}
+#main{
+    
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(242, 232, 232);
+}
+#title{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 10px;
+    margin: 5+px;
+}
+div p{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#img-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+}
+#image{
+    width: 90%;
+    max-width: 80vh;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#img-caption{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#img-caption:hover{
+    color: blueviolet;
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.bold{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    margin-top: 10px;
+}
+li{
+    font-size: 18px;
+    padding: 0px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#tribute-info{
+    margin: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+#tribute-info ~ p{
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: right;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 13px;
+    font-size: 18px;
+}

@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+.pricing-container{
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px;
+  width: 100%;
+  max-width: 950px;
+  height: auto;
+  box-sizing: border-box;
+}
+.pricing-card{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  margin: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 100%;
+  max-width: 350px;
+  transition: all 0.3s ease;
+  height: auto;
+}
+.pricing-card:hover{
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    
+}
+
+label{
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: left;
+}
+.features{
+    display: inline-block;
+    font-size: 20px;
+
+}
+hr{
+    width: 200px;
+    align-self: center;
+}
+h2{
+    padding-top: 30px;
+
+}
+.tick{
+    color: green;
+    font-weight: bold;
+}
+.wrong{
+    color: red;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rate{
+    font-size: 25px;
+    color: rgb(81, 16, 16);
+    font-weight: bold;
+    margin: 15px;
+    margin-bottom: 0px;
+}
+
+.basic-plan{
+    display: flex;
+    justify-content: center;
+    order: 0;
+    flex-grow: 2;
+    text-align: center;
+}
+.pro-plan{
+    display: flex;
+    justify-content: center;
+    order: 1;
+    flex-grow:2;
+    text-align: center;
+
+}
+.premium-plan{
+    display: flex;
+    justify-content: center;
+    order: 2;
+    flex-grow: 2;
+    text-align: center;
+
+}
+button{
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(244, 203, 56);
+    border: 0px;
+    font-size: 15px;
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+p{
+    font-size: 20px;
+    display: inline;
+    padding: 5px;
+
+}
+

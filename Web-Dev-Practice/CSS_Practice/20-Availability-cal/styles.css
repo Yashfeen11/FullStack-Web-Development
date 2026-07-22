@@ -1,0 +1,79 @@
+:root {
+  --color0: #f1f3f5;
+  --color1: #d3f9d8;
+  --color2: #b2f2bb;
+  --color3: #8ce99a;
+  --color4: #51cf66;
+  --color5: #2b8a3e;
+  --solid-border: 2px solid #000000;
+  --dashed-border: 2px dashed #000000;
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td {
+  border-bottom: var(--dashed-border);
+}
+
+#legend-gradient {
+  background-image: linear-gradient(
+    to right,
+    var(--color0) 0%,
+    var(--color0) 17%,
+    var(--color1) 17%,
+    var(--color1) 34%,
+    var(--color2) 34%,
+    var(--color2) 50%,
+    var(--color3) 50%,
+    var(--color3) 67%,
+    var(--color4) 67%,
+    var(--color4) 83%,
+    var(--color5) 83%,
+    var(--color5) 100%
+  );
+}
+#span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+#legend-gradient{
+  border: 2px solid black;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 20px;
+}

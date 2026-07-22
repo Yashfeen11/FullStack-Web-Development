@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+#playing-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: auto;
+    border: 0px solid black;
+    height: 900px;
+
+    height: auto;
+    justify-content: center;
+    background-color: rgb(248, 224, 228);
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+    height: 350px;
+    color: black;
+    margin: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 0px black;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    transition: all 0.3s ease-in;
+    border-radius: 10px;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    order: 0;
+    justify-content: space-between; 
+}
+.b{
+    padding-left: 220px;
+    margin: 5px 5px 5px 0px;
+}
+.up ,.plain{
+    padding: 5px 0px 2px 10px;
+}
+.down , .invert{
+    transform: rotate(180deg);
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    justify-content: space-between; 
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    justify-content: space-between; 
+    color: red;
+}
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    justify-content: space-between; 
+}
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    order: 4;
+    justify-content: space-between; 
+    color: red;
+}
+#spade , #leaf , #heart , #spade-heart , #diamond{
+    display: flex;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+#spade{
+    justify-content: center;
+}
+#leaf , #heart , #spade-heart , #diamond {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#leaf span:nth-child(2) , #heart span:nth-child(1) , #heart span:nth-child(3)
+, #spade-heart span:nth-child(2){
+    transform: rotate(180deg);
+}
+#di{
+    margin: auto;
+}
