@@ -1,0 +1,18 @@
+*,
+::before,
+::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newspaper-layout{
+    display: grid;
+
+}
+.title{
+    text-align: center;
+    background-color: #00beef;
+    color: white;
+    font-weight: bolder;
+}
