@@ -19,3 +19,19 @@ function steamrollArray(arr) {
 console.log(steamrollArray([[["a"]], [["b"]]]));
 console.log(steamrollArray([1, [2], [3, [[4]]]]));
 console.log(steamrollArray([1, {}, [3, [[4]]]]));
+
+/* function steamrollArray(nestedArray){
+  let newArr= [];
+ 
+  for(let i=0; i<nestedArray.length; i++){
+    if(Array.isArray(nestedArray[i])){
+      newArr.push(...steamrollArray(nestedArray[i]));
+    }
+    else{
+      newArr.push(nestedArray[i]);
+    }
+  }
+  return newArr;
+}
+console.log(steamrollArray([[["a"]], [["b"]]]));
+*/
