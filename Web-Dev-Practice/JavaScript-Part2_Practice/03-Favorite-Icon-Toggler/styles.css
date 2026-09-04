@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(206, 206, 255);
+  font-family: sans-serif;
+  
+}
+h1{
+  padding: 50px;
+}
+.item-list{
+  font-size: 25px;
+  list-style-type: none;
+  font-style: italic;
+}
+li{
+  padding: 10px;
+  margin: 5px;
+}
+.favorite-icon{
+  all: unset;
+  cursor: pointer;
+  margin-left: 50px;
+}
+li:hover{
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.filled{
+  color: red;
+}
