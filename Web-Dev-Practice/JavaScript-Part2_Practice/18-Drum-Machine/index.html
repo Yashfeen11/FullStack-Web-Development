@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Machine</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="drum-machine">
+    <div id="drum1">
+        <div id="pad-bank">
+            <button class="drum-pad" id="drum-q">Q
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-1.mp3" id="Q"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">W
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-2.mp3" id="W"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">E
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-3.mp3" id="E"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">A
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-4_1.mp3" id="A"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">S
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Heater-6.mp3" id="S"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">D
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Dsc_Oh.mp3" id="D"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">Z
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Kick_n_Hat.mp3" id="Z"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">X
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/RP4_KICK_1.mp3" id="X"></audio>
+            </button>
+            <button class="drum-pad" id="drum-q">C
+                <audio class="clip" src="https://cdn.freecodecamp.org/curriculum/drum/Cev_H2.mp3" id="C"></audio>
+            </button>
+        </div>
+    </div>
+    <div id="drum2">
+        <div id="power-btn"><p>Power: <span id="power">On</span> </p>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        </div>
+        <div id="pdisplay">
+        <p id="display">Hello
+        </p>
+        </div>
+        <div class="volume-bar">
+            <p>Volume</p>
+            <input type="range" min="1" max="100" value="20" id="slider">
+        </div>
+        <div id="drum-type">
+            <p>Bank: <span>Heater Kit</span></p>
+            <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+            </label>
+        </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+</html>
