@@ -45,7 +45,7 @@ input:checked + .slider:before {
 }
 #drum-machine{
     background-color: #0b2941;
-    width: 55%;
+    width: 400px;
     margin: auto;
     border: 2px solid white;
     border-radius: 10px;
