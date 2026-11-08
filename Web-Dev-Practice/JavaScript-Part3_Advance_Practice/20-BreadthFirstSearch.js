@@ -17,7 +17,7 @@ function genParentheses(pairs) {
       if (opensUsed < pairs) {
         queue.push([current + '(', opensUsed + 1, closesUsed]);
       }
-      if (closesUsed < opensUsed) {
+      if (closesUsed < opensUsed) { //Invalid combinations ko generate hone se rokta hai to ))(( banega hi ni 
         queue.push([current + ')', opensUsed, closesUsed + 1]);
       }
     }
